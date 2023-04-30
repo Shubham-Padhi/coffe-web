@@ -53,7 +53,6 @@ header ul li a
 .content .textbox{
     position: relative;
     max-width: 600px;
-
 }
 .content .textbox h2{
     color: #333;
@@ -65,7 +64,6 @@ header ul li a
     color: #017143;
     font-size: 1.2em;
     font-weight: 900;
-
 }
 .content .textbox p{
     color: #333;
@@ -83,7 +81,6 @@ header ul li a
 }
  .content .imagBox img{
     max-width: 340px;
-
  }
  .thumb{
     position: absolute;
@@ -101,7 +98,6 @@ header ul li a
  }
 .thumb li:hover{
     transform: translateY(-15px);
-
 }
 .thumb li img{
     max-width: 60px;
@@ -135,15 +131,7 @@ header ul li a
     background: #017143;
     clip-path: circle(600px at right 800px);
 }
-/* body{
-    background-color: #017143;
-  top: 1-0;
-  left: auto;
-  width:auto;
-  max-height: min-content;
-  clip-rule: calc(1292);
-  background-position: middle;
-} */
+
   
  .img {
     width: 50px;
@@ -151,11 +139,35 @@ header ul li a
     display: inline-block;
     position: sticky;
     font-weight: 400;
-    margin-left:40px ;
-    
-        
+    margin-left:40px ;       
 }  
 .pp{
-    color:green;
+    color:rgb(0, 0, 0);
 }
+
+
+*{
+    
+    background-repeat: no-repeat;
+
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    padding: 100px;
+    outline: 7px black solid;
+    border-radius: 30px;
+    color: black;
+     background-image: url(wp.webp);
+    
+  }
+ 
+
+  
 
