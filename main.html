@@ -4,23 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>COFFEE WITH CHIKU project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <label for=""><h2>COffee Shop</h2></label>
-        <li><a href="#">HOMT</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">INFO</a></li>
-        <li><a href="#">SETTING</a></li>  
-    </nav>
-    <div>
-    <input type="text" placeholder="search anything">
-                <a href="#"><button class="btn">Search</button></a>
-    
-                <p class="par">Some i request to all my frd to join this site because it good</p>
-                <button class="cn"><a href="#">JOIN US</a></button>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" ><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+                <img class="img" src="coffee2.png" alt=""><p class="pp">Bye<br> me a<br> coffee</p>
+            </ul>      
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Its For YOu <br> MCA<span> Coffee Wala</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia vero, optio, nam, nemo expedita quis eaque officia consectetur totam maiores quo repudiandae ratione nihil minus voluptas libero perspiciatis earum laudantium!</p>
+                <a href="sign.php">Sign up</a>
             </div>
-</body>
-</html>
+            <div class="imgBox">
+                <img src="img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+       <ul class="thumb">
+           <li><img src="thumb1.png"  onclick="imgSlider('img1.png');changeCircleColor('#017143')"></li>
+           <li><img src="thumb2.png"  onclick="imgSlider('img2.png');changeCircleColor('#eb7495')"></li>
+           <li><img src="thumb3.png"  onclick="imgSlider('img3.png');changeCircleColor('#d752b1')"></li>
+       </ul>
+       <ul class="sci">
+        <li><a href="#"><img src="facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="twitter.png" alt=""></a></li>
+        <li><a href="#"><img src="instagram.png" alt=""></a></li>
+     </ul>
+    </section>
+    <!-- <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+            }
+            function changeCircleColor(color){
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+         </script>  -->
+ </body>
+ </html>

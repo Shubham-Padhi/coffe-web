@@ -158,16 +158,17 @@ header ul li a
     align-items: center;
 }
 .container{
-    width: 400px;
-    height: 400px;
-    padding: 100px;
-    outline: 7px black solid;
-    border-radius: 30px;
-    color: black;
-     background-image: url(wp.webp);
+    width: 500px;
+
+     /* background-image: url(wp.webp); */
     
   }
- 
 
-  
+
+
+
+
+
+
+
 
